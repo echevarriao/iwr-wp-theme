@@ -1,0 +1,787 @@
+/*
+ * Template Name: Jonathon Mellor Theme Foundation Theme
+ * Description: A theme based on the brand.uconn.edu which uses Foundation as its backend
+ * Version: 1.0
+ * Author: O. Echevarria | School of Engineering
+ * Author URI: http://www.engr.uconn.edu/
+ * Text Domain: biomed_foundation
+ * 
+ *
+ */
+
+
+
+.long-row{
+    
+    position: relative;
+    float: left;
+    display: block;
+    width: 100%;
+    
+}
+
+.debug{
+    
+    border: 1px solid #000;
+    
+}
+
+body{
+    
+    background-color: #000e2f;
+    
+}
+
+#bannertop{
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#bannertop li{
+    
+    display: inline
+    
+}
+
+#bannertop li div{
+    
+    position: relative;
+    float: left;
+    
+}
+
+.uc-bluebg{
+    
+    background-color: #000e2f;    
+    
+}
+
+.uc-orange{
+    
+    background-color: #ff5000;
+    
+}
+
+.uc-whitebg{
+    
+    background-color: #ffffff;
+    
+}
+
+.uc-blackbg{
+    
+    background-color:#000000;
+    
+}
+
+#uc-sep{
+
+    padding: 12px 9px;    
+    
+}
+
+#uc-fn{
+    
+    padding: 10px 0;    
+    
+}
+
+.uc-blue-gradient{
+    
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top, #192B5F 0%, #0F1938 100%);
+	
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top, #192B5F 0%, #0F1938 100%);
+	
+	/* Opera */ 
+	background-image: -o-linear-gradient(top, #192B5F 0%, #0F1938 100%);
+	
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #192B5F), color-stop(1, #0F1938));
+	
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top, #192B5F 0%, #0F1938 100%);
+	
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom, #192B5F 0%, #0F1938 100%);    
+    
+}
+
+.uc-whitebg{
+    
+    background-color: #ffffff;
+    
+}
+
+#iconsbox{
+    
+    margin: 0;
+    padding:10px;
+    list-style: none;
+    float: right;
+    
+}
+
+#iconsbox li {
+    
+    display: inline-table;
+    
+}
+
+#iconsbox li div{
+    
+/* Note: This gradient may render differently in browsers that don't support the unprefixed gradient syntax */
+
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top left, #304994 0%, #1C3173 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top left, #304994 0%, #1C3173 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top left, #304994 0%, #1C3173 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #304994), color-stop(1, #1C3173));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top left, #304994 0%, #1C3173 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom right, #304994 0%, #1C3173 100%);    
+
+height: 32px;
+width: 32px;
+border: 1px solid #1e2b51;
+text-align: center;
+-webkit-box-shadow: 1px 1px 0px 0px rgba(57,87,176,1);
+-moz-box-shadow: 1px 1px 0px 0px rgba(57,87,176,1);
+box-shadow: 1px 1px 0px 0px rgba(57,87,176,1);
+line-height: 32px;
+
+}
+
+#iconsbox li div:hover{
+    
+    background-image: none;
+    background-color: #0000ff;
+
+}
+
+#iconsbox li div img{
+    
+    border: 0;
+    height: 20px;
+    width: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#iconsbox li div a {
+    
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    height: 32px;
+    
+}
+
+span#uconn-signature {
+    
+    font-family: "uconn_extendedregular", arial, helvetica, sans-serif;
+    font-size: 32px;
+        
+}
+
+span#uconn-signature a{
+    
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+span#uconn-fullname {
+    
+    font-family: "Proxima Nova", arial, helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+span#uconn-fullname a{
+    
+    color: #9faab2;
+    text-decoration: none;
+    
+}
+
+#separator{
+    
+    font-size: 18px;
+    color: #a1a1a1;
+    
+}
+
+h2 span#site-name{
+    
+    font-weight: 500;
+    font-family: "Proxima Nova", arial, helvetica, sans-serif;
+    font-size: 24px;
+    
+}
+
+h2 span#site-name a{
+    
+    color: #0f1b57;
+    text-decoration: none;
+    
+}
+
+h2 span#site-name a:hover{
+    
+    text-decoration: underline;
+    
+}
+
+h2 span#parent-org{
+    
+    font-family: "Proxima Nova", arial, helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    
+}
+
+h2 span#parent-org {
+    
+    
+}
+
+h2 span#parent-org a{
+    
+     color: #a1a1a1;
+     text-decoration: none;
+}
+
+#site-title-section{
+    
+    margin: 0;
+    padding: 0;
+    line-height: 1.0;
+    
+}
+
+.header-top-padding{
+    
+    padding-top: 10px;
+    
+}
+
+.header-bottom-padding{
+    
+    padding-bottom: 15px;
+    
+}
+
+h3{
+    
+    font-family: "Proxima Nova", arial, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    padding-top: 15px;
+    
+}
+
+h3.doctitle{
+    
+    font-family: "Proxima Nova", arial, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    padding-top: 15px;
+    
+}
+
+/* nav */
+
+.uc-bmebrown-gradient{
+
+background-color: #6F2B3A;
+
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #6F2B3A 0%, #430512 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #6F2B3A 0%, #430512 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #6F2B3A 0%, #430512 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #6F2B3A), color-stop(1, #430512));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #6F2B3A 0%, #430512 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #6F2B3A 0%, #430512 100%);
+
+}
+
+/* end nav */
+
+/* nav */
+
+.bg-lightgray{
+    
+    background-color: #f9f9f9;
+    
+}
+
+.bg-white{
+    
+    background-color: #ffffff;
+    
+}
+
+.uc-bmebrown{
+
+background-color: #6F2B3A;
+
+}
+
+#second-row{
+    
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+    
+}
+
+/* end nav */
+
+/* Front page */
+
+.teasers p{
+    
+    font-size: 14px;
+    font-family: arial, helvetica, sans-serif;
+    
+}
+
+.fp-column-titles{
+    
+    border-bottom: 1px solid black;
+    font-size: 1.0em;
+    
+}
+
+.fp-widget-title{
+    
+    font-size: 1.5em;
+    color: #6f2b3a;
+    
+}
+
+.fp-widget-title-black{
+    
+    color: #717171;
+    
+}
+
+div.fp-format-div .textwidget > p strong {
+    
+    color: #6f2b3a;
+    
+}
+
+div.fp-format-div .textwidget > p{
+    
+    font-size: 12px;
+    font-family: arial, helvetica, sans-serif;
+    
+}
+
+div.fp-format-div a {
+
+    color: #702a39;    
+    
+}
+
+div.fp-format-div a:hover {
+
+    color: #000;
+    text-decoration: underline;
+    
+}
+
+#rss-2 ul , #rss-3 ul , #rss-4 ul , #rss-5 ul{
+    
+    list-style: none;
+    margin: 10px 0;
+    padding: 10px 0;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    
+}
+.textwidget ul {
+    
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    
+}
+
+#rss-2 ul li, #rss-3 ul li, #rss-4 ul li, #rss-5 ul li{
+    
+    display: block;
+    
+}
+#rss-2 ul li a, #rss-3 ul li a, #rss-4 ul li a, #rss-5 ul li a{
+    
+
+    
+}
+
+#content-area p, #content-area ol, #content-area ul, #content-area table, #content-area blockquote{
+    
+    font-size: 12px;
+    font-family: arial, helvetica, sans-serif;
+    
+}
+
+.rss-date{
+    
+    display: block;
+    padding-bottom: 10px;
+    
+}
+#first-row{
+    
+    padding-top: 15px;
+    
+}
+
+.color-702a39{
+    
+    background-color: #702a39;    
+    color: #fff !important;
+    
+}
+/* end of front page */
+
+#content-area a{
+    
+    color: #702a39;
+    
+}
+
+#content-area a:hover{
+    
+    color: #f00;
+    text-decoration: underline;
+    
+}
+
+.wp-caption {
+    border: 1px solid #E1E1E1;
+    padding: 5px;
+}
+
+.alignright {
+    position: relative;
+    float: right;
+    margin-left: 10px;
+}
+
+.content-section p, .content-section ul, .content-section ol, .content-section table {
+    font-family: "Proxima Nova",arial,helvetica,sans-serif !important;
+    font-size: 10pt;
+}
+    
+.side-menus{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+.side-menus li {
+
+    display: inline;    
+    
+}
+
+.side-menus li a{
+
+    display: block;
+    padding: 5px;
+    
+}
+
+.side-menus li a:hover{
+
+    background-color: #6f2b3a;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    
+}
+
+#left-navPanel ul{
+    
+    border-right: 1px solid #6f2b3a;
+    
+}
+
+#left-navPanel ul li ul{
+    
+    border-right: 0;
+    
+}
+
+.footerfmt a{
+    
+    padding: 5px;
+    
+}
+
+.footerfmt a, .footerfmt, .footerfmt p{
+    
+    font-size: 12px;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff !important;
+    
+}
+
+.footerfmt a:hover {
+    
+    color: #0078a0;
+    
+}
+
+.black-top-line{
+    
+    border-top: 1px solid #000;
+    
+}
+
+#footer-address-bar{
+    
+    font-size: 11px;
+    font-family: arial, helvetica, sans-serif;
+    color: #fff;
+    
+}
+
+.footer-column div p{
+    
+    font-size: 11px;
+    color: #000;
+    
+}
+
+img.alignleft {
+    
+    float: left;
+    margin: 5px;
+    
+}
+
+img.alignright{
+    
+    float: right;
+    margin: 5px;
+    
+}
+
+.whitelabel{
+    
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+
+.uc-engrblue{
+    
+    background-color: #0c1c67;
+    
+}
+
+.uc-engrgray{
+    
+    background-color: #d0d0d0;
+    
+}
+
+.uc-engrdarkgray{
+    
+    background-color: #d0d0d0;
+    
+}
+
+.subsection-title{
+    
+    font-size: 14pt;
+    font-weight: bold;
+    background-color: #a1a1a1;
+    display: block;
+    padding: 5px;
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #F9F9F9 0%, #E1E1E1 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #F9F9F9 0%, #E1E1E1 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #F9F9F9 0%, #E1E1E1 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F9F9F9), color-stop(1, #E1E1E1));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #F9F9F9 0%, #E1E1E1 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #F9F9F9 0%, #E1E1E1 100%);
+
+}
+
+
+#upcoming-events{
+    
+    display: block;
+    
+}
+
+#frontpage-news{
+    
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    
+}
+
+.fp-format-div img{
+    
+    border: 5px solid #e1e1e1;
+    
+}
+
+#frontpage-news li img{
+    
+    margin: 5px;
+    
+}
+
+br {
+    
+    clear: both;
+    
+}
+
+.gray-gradient{
+    
+    background-color: #f9f9f9;
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #F9F9F9 0%, #E1E1E1 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #F9F9F9 0%, #E1E1E1 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #F9F9F9 0%, #E1E1E1 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F9F9F9), color-stop(1, #E1E1E1));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #F9F9F9 0%, #E1E1E1 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #F9F9F9 0%, #E1E1E1 100%);    
+    
+}
+
+.footer-sitemap-objs div ul {
+    
+    list-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.footer-sitemap-objs div ul li {
+    
+    display: inline;
+    font-size: 7.5pt;
+    
+}
+
+.footer-sitemap-objs div ul li a {
+
+    display: block;
+    
+}
+
+#footer-text{
+    
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+#footer-text li a{
+    
+    color: #fff;
+    
+}
+
+#footer-text li a:hover{
+    
+    color: #f00;
+    
+}
+
+@media (max-width: 1024px){
+    
+#search-index-box {
+    
+display: none;
+    
+}
+
+#social-media{
+    
+    background-color: #f9f9f9;
+    border-top: 1px solid #d8d8d8;
+    
+}
+
+}
+
+@media (max-width: 640px){
+    
+    .nivo-caption{
+	
+	display: none !important;
+	
+    }
+    
+#uc-fn, #uc-sep {
+    
+display: none;
+    
+}
+
+}
+
+@media (max-width: 480px){
+    
+    
+}
